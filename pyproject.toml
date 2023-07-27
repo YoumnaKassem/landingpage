@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "test-project"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+packages = [{include = "pete_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+numpy = "^1.24.3"
+torch = "^2.0.1"
+gpytorch = "^1.11"
+pandas = "^2.0.2"
+boto3 = "^1.26.153"
+nevergrad = "^0.6.0"
+xgboost = "^1.7.5"
+inflection = "^0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
